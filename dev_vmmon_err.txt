@@ -1,0 +1,43 @@
+Ubuntu 20.04 solution that worked for me:
+
+openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VMWare"
+sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmmon)
+sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)
+sudo su
+mokutil --import MOK.der
+input password:
+input password again:
+exit
+sudo shutdown -r now
+At startup "ENROLL MOK" and "Restart" again
+
+
+--- 
+
+cmatrix
+cowsay
+sl
+figlet
+fortune
+xeyes
+aafire
+espeak
+asciiquarium
+rig
+
+---
+https://docs.vmware.com/en/VMware-Workstation-Pro/index.html
+
+switch to text mode:
+
+sudo systemctl isolate multi-user.target
+
+Switch to "graphical mode":
+
+sudo systemctl isolate graphical.target
+
+
+Set boot target
+
+sudo systemctl set-default multi-user.target
+systemd.unit=multi-user.target
