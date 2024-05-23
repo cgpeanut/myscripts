@@ -1,0 +1,10 @@
+[tool.poerty]
+name = "gguf-ollama"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Roxas <walkawayjoebiden@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface-hub = "poetry.core.masonry.api"
