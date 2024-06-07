@@ -1,5 +1,5 @@
 from huggingface_hub import snapshot_download
 
-model_id="TheBloke/Wizard-Vicuna-30B-Uncensored-GGUF"
+model_id="Orenguteng/Llama-3-8B-Lexi-Uncensored"
 
-snapshot_download(repo_id=model_id, local_dir="TWizard-Vicuna-30B-Uncensored-GGUF", local_dir_use_symlinks=False, revision="main")
+snapshot_download(repo_id=model_id, local_dir="~/models/llama-3-8B-Lexi-Uncensored", local_dir_use_symlinks=False, revision="main")

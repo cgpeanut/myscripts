@@ -1,0 +1,1 @@
+./wizardcoder-python-34b-v1.0.Q8_0.llamafile --temp 0.7 -p '[INST]Write a python function that downloads all the winning powerball lottery numbers and saves it as a json file[/INST]' -ngl 9999 --recompile

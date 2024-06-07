@@ -1,3 +1,3 @@
-python llama.cpp/convert.py vicuna-hf \
+python llama.cpp/convert.py Wizard \
 	  --outfile vicuna.gguf \
 	  --outtype q8_0

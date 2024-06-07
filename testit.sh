@@ -1,0 +1,3 @@
+./wizardcoder-python-34b-v1.0.Q8_0.llamafile --temp 0.7 -p '[INST]Given a string as "etcertghg", write a python function that rearranges the characters so that matching letters are grouped together.  The output should be a string like "eettcrggh".  The solution should only use loop, while loops and if statements, without relying on advanced built-in functions.[/INST]' -ngl 9999 --recompile
+#
+./wizardcoder-python-34b-v1.0.Q8_0.llamafile --temp 0.7 -p '[INST]Given a string as "etcertghg", write a python function that rearranges the characters so that matching letters are grouped together.  The output should be a string like "eettcrggh".  The solution should only use rely on advanced built-in functions.[/INST]' -ngl 9999 --recompile
