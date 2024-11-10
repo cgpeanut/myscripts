@@ -10,6 +10,8 @@ Generate a list of 10 actionable tips for optimizing [specific aspect of persona
 Craft a detailed roadmap for achieving [specific goal or milestone], breaking down the steps and milestones along the way.
 Write a persuasive argument advocating for the adoption of [specific technology or innovation] in [specific industry or sector].
 Create a tutorial on [specific creative skill or hobby], providing step-by-step instructions and examples for beginners.
+	Create a tutorial on artificail intelligence using the python programming language, providing step-by-step instructions and examples for beginners
+
 Generate a list of 10 unique blog post ideas for [specific niche or industry].
 Let’s brainstorm innovative marketing strategies for [specific product or service]. What creative ideas come to mind?
 Imagine you’re a customer seeking [specific solution or product]. Write a persuasive sales pitch to convince them to choose your offering.

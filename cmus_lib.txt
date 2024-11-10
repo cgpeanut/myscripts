@@ -1,0 +1,6 @@
+In my case, the complete solution to update cmus cache was:
+
+Run :clear (it clear your current view).
+Then :add . (. to add everything available in your current directory, if you just want to add a specific directory remember you can :add PATH_TO_YOUR_FOLDER).
+Finally, if cmus doesn't still show the correct metadata, run update-cache.
+My advice is to try run :update-cache first. If it doesn't work, try the the steps indicated above, these steps should solve the problem with the cmus cache.
